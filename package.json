@@ -1,0 +1,15 @@
+{
+  "name": "p4-nosql-fastify",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "mongodb": "^6.8.0",
+    "ioredis": "^5.4.1"
+  }
+}
